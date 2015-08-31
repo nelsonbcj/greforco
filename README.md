@@ -1,2 +1,1 @@
-# greforco
-Avaliação da disciplina Tecnologia de programação para Internet
+#greforco - Sistema Grails 2.4.5
