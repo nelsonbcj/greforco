@@ -120,14 +120,14 @@ log4j.main = {
            'net.sf.ehcache.hibernate'
 }
 
-grails.plugins.springsecurity.secureChannel.useHeaderCheckChannelSecurity = true
-grails.plugins.springsecurity.portMapper.httpPort = 80
-grails.plugins.springsecurity.portMapper.httpsPort = 443
-grails.plugins.springsecurity.secureChannel.secureHeaderName = 'X-FORWARDED-PROTO'
-grails.plugins.springsecurity.secureChannel.secureHeaderValue = 'http'
+//grails.plugins.springsecurity.secureChannel.useHeaderCheckChannelSecurity = true
+//grails.plugins.springsecurity.portMapper.httpPort = 80
+//grails.plugins.springsecurity.portMapper.httpsPort = 443
+//grails.plugins.springsecurity.secureChannel.secureHeaderName = 'X-FORWARDED-PROTO'
+//grails.plugins.springsecurity.secureChannel.secureHeaderValue = 'http'
 
-grails.plugins.springsecurity.secureChannel.insecureHeaderName = 'X-FORWARDED-PROTO'
-grails.plugins.springsecurity.secureChannel.insecureHeaderValue = 'https'
+//grails.plugins.springsecurity.secureChannel.insecureHeaderName = 'X-FORWARDED-PROTO'
+//grails.plugins.springsecurity.secureChannel.insecureHeaderValue = 'https'
 // Added by the Spring Security Core plugin:
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'greforco.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'greforco.UserRole'
